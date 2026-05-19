@@ -25,7 +25,7 @@
 
     <!-- Home Section -->
     <section id="home" class="home">
-        <img src="profile.jpg" alt="Profile Photo">
+        <img src="1000233540.jpg" alt="Profile Photo" width="250">
         <h2>Hello, I'm Hari NB</h2>
         <p>Web Developer & Computer Science Student</p>
     </section>
@@ -81,16 +81,27 @@
     <section id="contact">
         <h2>Contact Me</h2>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message"></textarea>
+   < form action="https://formspree.io/f/mwvzpyzw" method="POST">
 
-            <button type="submit">Send</button>
-        </form>
+        <input type="text" 
+               name="name" 
+               placeholder="Your Name" 
+               required>
+
+        <input type="email" 
+               name="email" 
+               placeholder="Your Email" 
+               required>
+
+        <textarea name="message" 
+                  placeholder="Your Message" 
+                  rows="5" 
+                  required></textarea>
+
+        <button type="submit">Send Message</button>
 
         <div class="social-links">
-            <a href="#">GitHub</a>
+            <a href="https://github.com/nbhari03-web">GitHub</a>
             <a href="#">LinkedIn</a>
         </div>
     </section>
