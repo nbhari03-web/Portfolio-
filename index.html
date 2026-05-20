@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Hari NB Portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header -->
+    <!-- Navbar -->
     <header>
         <nav>
-            <h1>Hari NB</h1>
+            <h2 class="logo">My Portfolio</h2>
 
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -25,36 +25,65 @@
 
     <!-- Home Section -->
     <section id="home" class="home">
-        <img src="https://ibb.co/qYFSv0f5" alt="Profile Photo">
-        <h2>Hello, I'm Hari NB</h2>
-        <p>Web Developer & Computer Science Student</p>
+        <img src="1000233774.jpg" alt="Profile Photo" class="profile-img">
+
+        <h1><B>Hari N B</B></h1>
+
+        <p>MCA Student |  Developer</p>
     </section>
 
     <!-- About Section -->
-    <section id="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
 
         <p>
-            I am a Computer Science student passionate about web development,
-            programming, and creating innovative projects using modern technologies.
-            I enjoy learning new skills and building responsive websites.
+            I'm Hari N B, an MCA student with a strong interest in
+        web development and software technologies. Interested in technology and coding, especially Java programs, ML mini-projects, IoT ideas, networking topics, and practical college projects.
         </p>
     </section>
 
+
     <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
+<section id="skills" class="section">
+
+    <h2>Skills</h2>
+
+    <div class="skills-category">
+
+        <h3>Frontend</h3>
 
         <div class="skills-container">
-            <div class="skill-card">HTML</div>
-            <div class="skill-card">CSS</div>
-            <div class="skill-card">JavaScript</div>
-            <div class="skill-card">Python</div>
-            <div class="skill-card">Java</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            
         </div>
+
+    </div>
+
+    <div class="skills-category">
+
+        <h3>Backend</h3>
+
+        <div class="skills-container">
+            <div class="skill">Python</div>
+            <div class="skill">Flask</div>
+        </div>
+
+    </div>
+
+</section>
+    </div>
     </section>
 
     <!-- Projects Section -->
+
+<section id="projects" class="section">
+    <h2>My Projects</h2>
+
+    <div class="project-container">
+
+        
+            <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
 
@@ -77,29 +106,53 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
+   
+
+        
+        </div>
+
+    </div>
+</section>
+
+        </div>
+    </section>
+
     <section id="contact">
-        <h2>Contact Me</h2>
+    <h2>Contact Me</h2>
 
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="5" placeholder="Your Message"></textarea>
+    <form action="https://formspree.io/f/mwvzpyzw" method="POST">
 
-            <button type="submit">Send</button>
-        </form>
+        <input type="text" 
+               name="name" 
+               placeholder="Your Name" 
+               required>
+
+        <input type="email" 
+               name="email" 
+               placeholder="Your Email" 
+               required>
+
+        <textarea name="message" 
+                  placeholder="Your Message" 
+                  rows="5" 
+                  required></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+    </section>
 
         <div class="social-links">
-            <a href="https://github.com/nbhari03-web">GitHub</a>
-            <a href="#">LinkedIn</a>
+            <a href="https://github.com/nbhari03-web" target="_blank">GitHub</a>
+            <a href="">LinkedIn</a>
+            <a href="mailto: nbhari03@gmail.com">Email Me</a>
         </div>
     </section>
 
     <footer>
-        <p>© 2026 Hari NB | Portfolio Website</p>
+        <p>© 2026 Hari N B | Portfolio Website</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
-    
